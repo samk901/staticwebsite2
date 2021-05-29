@@ -1,7 +1,14 @@
+header img {
+    height: 60px;
+    margin-left: 30px;
+}
+
 body {
+    height: 125vh;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: sans-serif;
+    padding: 30px;
 }
 
 header {
@@ -10,9 +17,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 80px;
     line-height: 50px;
     background-color: #eee;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    font-size: 20px;
 }
 
 header * {
@@ -25,7 +35,12 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
 }
 
 section {
@@ -79,4 +94,43 @@ header a {
 
 #github {
     background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
+}
+
+/*  Start of table CSS */
+
+.styled_table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.styled_table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled_table th,
+.styled_table td {
+    padding: 12px 15px;
+}
+
+.styled_table tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.styled_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled_table tbody tr:last-of-type {
+    border-bottom: thin solid #009879;
+}
+
+.styled_table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
 }
