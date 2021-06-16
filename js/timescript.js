@@ -1,7 +1,11 @@
 let today = new Date();
 let currentHour = today.getHours();
 let greeting;
-let nameTag = 'My name is Sam Kim'
+let currentTime = currentHour + ":" + today.getMinutes();
+
+if (today.getMinutes() < 10) {
+  currentTime = currentHour + ":0" + today.getMinutes();
+}
 
 if (currentHour > 18) {
   greeting = 'Good evening!';
@@ -13,4 +17,6 @@ if (currentHour > 18) {
   greeting = 'Welcome!';
 }
 
-document.write('<h1>' + greeting + '<br>' + nameTag + '</h1>');
+document.write('<h1>' + greeting + '</h1>');
+document.write('<h4>(Your current local time is ' + currentTime + '.)</h4>');
+

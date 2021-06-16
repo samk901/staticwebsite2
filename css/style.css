@@ -63,7 +63,7 @@ section {
 }
 
 #home {
-    padding: 20px;
+    padding: 100px;
     height: 100%;
 }
 
@@ -110,7 +110,7 @@ header a {
 }
 
 #github h3 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 /*  Start of table CSS */
