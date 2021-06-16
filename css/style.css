@@ -30,6 +30,10 @@ header {
     font-family: franklin-gothic-urw, sans-serif;
 }
 
+p {
+    font-size: 1.5em;
+}
+
 header * {
     display: inline;
     height: 50px;
@@ -37,6 +41,11 @@ header * {
 
 header ul {
     padding: 0;
+}
+
+header li:hover {
+    font-size: 25px;
+    font-weight: 100;
 }
 
 header li {
@@ -82,7 +91,7 @@ footer {
 }
 
 #journey {
-    font-size: large;
+    font-size: 1em;
     font-family: franklin-gothic-urw;
     padding: 60px;
     height: 100%;
@@ -111,6 +120,10 @@ header a {
 
 #github h3 {
     font-size: 40px;
+}
+
+#contact {
+    font-size: 1.5em;
 }
 
 /*  Start of table CSS */

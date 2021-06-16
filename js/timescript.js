@@ -17,6 +17,10 @@ if (currentHour > 18) {
   greeting = 'Welcome!';
 }
 
+if (today.getMinutes() < 10) {
+  currentTime = currentHour + ":0" + today.getMinutes();
+};
+
 document.write('<h1>' + greeting + '</h1>');
 document.write('<h4>(Your current local time is ' + currentTime + '.)</h4>');
 
