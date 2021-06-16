@@ -1,7 +1,7 @@
 header img {
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: .5em;
 }
 
 body {
@@ -64,6 +64,7 @@ section {
 
 #home {
     padding: 20px;
+    height: 100%;
 }
 
 #home .profile-img {
@@ -84,6 +85,7 @@ footer {
     font-size: large;
     font-family: franklin-gothic-urw;
     padding: 60px;
+    height: 100%;
 }
 
 #journey p {
@@ -149,3 +151,12 @@ header a {
     font-weight: bold;
     color: #02427E;
 }
+
+/* Media queries for responsiveness */
+
+@media all and (max-width: 500 px) {
+    body {
+        color: blue;
+    }
+}
+
