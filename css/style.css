@@ -152,6 +152,23 @@ header a {
     color: #02427E;
 }
 
+.slide {
+    width: 200px;
+    height: 200px;
+}
+
+pre {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0.5em 1em;
+    -moz-tab-size: 4;
+      -o-tab-size: 4;
+         tab-size: 4; 
+}
+  
+
 /* Media queries for responsiveness */
 
 @media all and (max-width: 500 px) {
