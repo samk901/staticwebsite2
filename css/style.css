@@ -93,6 +93,17 @@ footer {
     font-size: 3em;
 }
 
+.button {
+    background-color: #1B91FC;
+    border: thin;
+    color: white;
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 90%;
+    margin: auto;
+    cursor:crosshair;
+}
+
 #journey {
     font-size: 1em;
     font-family: franklin-gothic-urw;
@@ -126,7 +137,7 @@ header a {
 }
 
 #contact {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
@@ -186,6 +197,31 @@ pre {
          tab-size: 4; 
 }
   
+/* Grid of interactive photos */
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.column {
+    padding: 0 5px;
+    flex: 100%;
+    vertical-align: middle;
+}
+
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
 
 /* Media queries for responsiveness */
 
