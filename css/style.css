@@ -1,7 +1,7 @@
 header img {
-    height: 50px;
-    margin-left: 30px;
-    margin-top: 10px;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: .5em;
 }
 
 body {
@@ -13,6 +13,8 @@ body {
     font-style: normal;
     padding: 30px;
     background-color: #F3F3F3;
+    background-image: linear-gradient(#f3f3f3, #f4f4f4);
+    
 }
 
 header {
@@ -30,6 +32,10 @@ header {
     font-family: franklin-gothic-urw, sans-serif;
 }
 
+p {
+    font-size: 1.5em;
+}
+
 header * {
     display: inline;
     height: 50px;
@@ -39,13 +45,18 @@ header ul {
     padding: 0;
 }
 
+header li:hover {
+    font-size: 25px;
+    font-weight: 100;
+}
+
 header li {
     margin-left: 30px;
     display:inline-block;
 }
 
 header li a {
-    color: black;
+    color: #1b1b1b;
     font-weight: 700;
     text-decoration: none;
 }
@@ -63,12 +74,14 @@ section {
 }
 
 #home {
-    padding: 20px;
+    padding: 100px;
+    height: 100%;
 }
 
 #home .profile-img {
     width: 300px;
     border-radius: 50%;
+    height: 300px;
 }
 
 footer {
@@ -80,10 +93,22 @@ footer {
     font-size: 3em;
 }
 
+.button {
+    background-color: #1B91FC;
+    border: thin;
+    color: white;
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 90%;
+    margin: auto;
+    cursor:crosshair;
+}
+
 #journey {
-    font-size: large;
+    font-size: 1em;
     font-family: franklin-gothic-urw;
     padding: 60px;
+    height: 100%;
 }
 
 #journey p {
@@ -108,8 +133,14 @@ header a {
 }
 
 #github h3 {
-    font-size: 60px;
+    font-size: 40px;
 }
+
+#contact {
+    font-size: 1.2em;
+}
+
+
 
 /*  Start of table CSS */
 
@@ -149,3 +180,54 @@ header a {
     font-weight: bold;
     color: #02427E;
 }
+
+.slide {
+    width: 200px;
+    height: 200px;
+}
+
+pre {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0.5em 1em;
+    -moz-tab-size: 4;
+      -o-tab-size: 4;
+         tab-size: 4; 
+}
+  
+/* Grid of interactive photos */
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.column {
+    padding: 0 5px;
+    flex: 100%;
+    vertical-align: middle;
+}
+
+.column img {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+
+/* Media queries for responsiveness */
+
+@media all and (max-width: 500 px) {
+    body {
+        color: blue;
+    }
+}
+
