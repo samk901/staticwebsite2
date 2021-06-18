@@ -59,6 +59,7 @@ header li a {
     color: #1b1b1b;
     font-weight: 700;
     text-decoration: none;
+    padding: 10 px;
 }
 
 section {
@@ -244,15 +245,12 @@ pre {
 
 /* Media queries for responsiveness */
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 400x) {
 
-    p {
-        font-size: 5em;
-    }
 
     header {
         height: 140px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #home figcaption {
