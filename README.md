@@ -12,8 +12,8 @@ I used jQuery to animate(requires mouse) the navigation links. They should becom
 
 ## Screenshots
 
-![home](/submissionScreenShots/Home.png)
-![MyJourney](/submissionScreenShots/MyJourney.png)
-![Github](/submissionScreenShots/Github.png)
-![Contact](/submissionScreenShots/Contact.png)
-![PhotoGallery](/submissionScreenShots/PhotoGallery.png)
+![home](/submissionScreenshots/Home.png)
+![MyJourney](/submissionScreenshots/MyJourney.png)
+![Github](/submissionScreenshots/Github.png)
+![Contact](/submissionScreenshots/Contact.png)
+![PhotoGallery](/submissionScreenshots/PhotoGallery.png)
