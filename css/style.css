@@ -13,7 +13,7 @@ body {
     font-style: normal;
     padding: 30px;
     background-color: #F3F3F3;
-    background-image: linear-gradient(#f3f3f3, #f4f4f4);
+    background-image: radial-gradient(#f3f3f3, #f6f6f6);
     
 }
 
@@ -84,6 +84,14 @@ section {
     height: 300px;
 }
 
+#home figcaption {
+    border: thin;
+    font-size: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    height: auto;
+}
+
 footer {
     text-align: center;
     padding: 50px;
@@ -113,6 +121,7 @@ footer {
 
 #journey p {
     max-width: 1000px;
+    color: #616161;
 }
 
 #journey h1 {
@@ -125,6 +134,7 @@ section h2 {
 
 section h3 {
     font-size: 1.5em;
+    
 }
 
 header a {
@@ -197,6 +207,15 @@ pre {
          tab-size: 4; 
 }
   
+/* Styling for Contact Me Table */
+
+.socialMediaTable td{
+    text-align: center;
+    border: thin;
+    padding: 1.5em;
+}
+
+
 /* Grid of interactive photos */
 
 .row {
@@ -225,9 +244,20 @@ pre {
 
 /* Media queries for responsiveness */
 
-@media all and (max-width: 500 px) {
-    body {
-        color: blue;
+@media (max-width: 576px) {
+
+    p {
+        font-size: 5em;
+    }
+
+    header {
+        height: 140px;
+        font-size: 40px;
+    }
+
+    #home figcaption {
+
+        font-size: 10px;
     }
 }
 
